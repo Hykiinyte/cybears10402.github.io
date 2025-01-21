@@ -5,7 +5,7 @@ html {
 nav {
     position: fixed;
     top: 0;
-    width: 1160px;
+    width: 1600px;
     background-color: #003f63;
     padding: 10px 20px;
     border-bottom: 2px solid black; /* Adds a bottom border */
@@ -39,7 +39,7 @@ li {
 }
 
 body {
-  width: 1200px;
+  width: 1700px;
   margin: 0 auto;
   background-color: #ffffff;
   padding: 0 20px 20px 20px;
