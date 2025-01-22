@@ -58,3 +58,14 @@ body {
 .image-container {
   text-align: center;
 }
+
+.navbar {
+  font-size: 16px;
+  line-height: 2;
+  text-align: center;
+  
+  font-family: "Oxanium", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
