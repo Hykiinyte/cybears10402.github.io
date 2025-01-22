@@ -69,3 +69,9 @@ body {
   font-weight: 200;
   font-style: normal;
 }
+
+.information {
+  background-color: #003f63;
+  padding: 10px 20px;
+  border-bottom: 2px solid black;
+}
