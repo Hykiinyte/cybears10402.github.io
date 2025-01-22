@@ -56,7 +56,27 @@ body {
 }
 
 .cybear-graphic {
-  text-align: center;
+  position: fixed; /* Keeps the GIF fixed in place while scrolling */
+  top: 0;
+  left: 0;
+  width: 100vw; /* Full width of the viewport */
+  height: 100vh; /* Full height of the viewport */
+  overflow: hidden;
+  z-index: -1; /* Ensures it stays behind the content */
+}
+
+.fullscreen-gif {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the GIF fills the container */
+}
+
+/* Styling for the content that overlaps the GIF */
+.information {
+  position: relative; /* Keeps content flowing normally in the document */
+  padding: 100vh 20px 20px; /* Adds space to ensure it's below the GIF */
+  background-color: white; /* Optional: Background for better text readability */
+  z-index: 1; /* Higher than the GIF */
 }
 
 .navbar {
