@@ -53,3 +53,7 @@ body {
 
   padding-top: 60px; /* adjust to the height of navbar */
 }
+
+.image-container {
+  text-align: center;
+}
