@@ -78,6 +78,8 @@ body {
   padding: 100vh 20px 20px; /* Adds space to ensure it's below the GIF */
   background-color: white; /* Optional: Background for better text readability */
   z-index: 1; /* Higher than the GIF */
+  background-color: #003f63;
+  border-bottom: 2px solid black;
 }
 
 .navbar {
@@ -89,10 +91,4 @@ body {
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
-}
-
-.information {
-  background-color: #003f63;
-  padding: 10px 20px;
-  border-bottom: 2px solid black;
 }
