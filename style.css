@@ -5,9 +5,9 @@ html {
 nav {
     position: fixed;
     top: 0;
-    width: 1160px;
+    width: auto;
     background-color: #003f63;
-    padding: 10px 20px;
+    padding: auto auto;
     border-bottom: 2px solid black; /* Adds a bottom border */
     text-align: center;
     z-index: 1000; /
@@ -44,7 +44,7 @@ p .oxanium-<uniquifier> {
 
 
 body {
-  width: 1600;
+  width: 1200;
   margin: 0 auto;
   background-color: #ffffff;
   padding: 0 20px 20px 20px;
