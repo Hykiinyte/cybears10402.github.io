@@ -3,92 +3,74 @@ html {
 }
 
 nav {
-    position: fixed;
-    top: 0;
-    width: 1160;
-    background-color: #003f63;
-    padding: 10px 20px;
-    border-bottom: 2px solid black; /* Adds a bottom border */
-    text-align: center;
-    z-index: 1000; /
+  position: fixed;
+  top: 0;
+  width: 100%; /* Changed to make nav bar span the full width */
+  background-color: #003f63;
+  padding: 10px 20px;
+  border-bottom: 2px solid black;
+  display: flex; /* Align items in a row */
+  justify-content: space-between; /* Space out links and logo */
+  align-items: center; /* Align vertically */
+  z-index: 1000;
 }
+
+nav img {
+  width: 30px;
+  height: 30px;
+}
+
 nav a {
-    margin: 0 10px;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 h1 {
   font-size: 50px;
   font-family: "Zen Dots", serif;
-  font-weight: 400;
-  font-style: normal;
   text-align: center;
-
-  margin: 0;
-  padding: 20px 0;
   color: #999999;
   text-shadow: 3px 3px 1px black;
 }
-
 
 p {
   font-size: 16px;
   line-height: 2;
   text-align: center;
-
   color: #999999;
   font-family: "Oxanium", serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: normal;
 }
 
-
 body {
-  width: 1200;
-  margin: 0 auto;
-  background-color: #999999;
-  padding: 0 20px 20px 20px;
-  border: 5px black;
-
-  padding-top: 60px; /* adjust to the height of navbar */
+  width: 100%; /* Ensure the body spans the entire viewport */
+  margin: 0;
+  padding: 0;
+  padding-top: 60px; /* Adjust for navbar height */
 }
 
 .cybear-graphic {
-  position: fixed; /* Keeps the GIF fixed in place while scrolling */
+  position: fixed;
   top: 0;
   left: 0;
-  width: 100vw; /* Full width of the viewport */
-  height: 100vh; /* Full height of the viewport */
+  width: 100vw;
+  height: 100vh;
   overflow: hidden;
-  z-index: -1; /* Ensures it stays behind the content */
+  z-index: -1; /* Push GIF behind the content */
 }
 
 .fullscreen-gif {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Ensures the GIF fills the container */
+  object-fit: cover; /* Maintain aspect ratio while covering the viewport */
 }
 
-/* Styling for the content that overlaps the GIF */
 .information {
-  position: relative; /* Keeps content flowing normally in the document */
-  padding: 100vh 20px 20px; /* Adds space to ensure it's below the GIF */
-  background-color: white; /* Optional: Background for better text readability */
-  z-index: 1; /* Higher than the GIF */
+  position: relative;
+  padding: 100vh 20px 20px; /* Space below GIF */
   background-color: #003f63;
   border-bottom: 2px solid black;
-}
-
-.navbar {
-  font-size: 16px;
-  line-height: 2;
+  color: white; /* Better readability */
   text-align: center;
-  
-  font-family: "Oxanium", serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: normal;
 }
