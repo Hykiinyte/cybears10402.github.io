@@ -13,6 +13,7 @@ nav {
   justify-content: space-between; /* Space out links and logo */
   align-items: center; /* Align vertically */
   z-index: 1000;
+  font-family: "Oxanium", serif;
 }
 
 nav img {
