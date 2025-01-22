@@ -43,34 +43,37 @@ p {
   font-family: "Oxanium", serif;
 }
 
+html {
+  background-color: #3f90bf;
+}
+
 body {
-  width: 100%; /* Ensure the body spans the entire viewport */
   margin: 0;
   padding: 0;
-  padding-top: 60px; /* Adjust for navbar height */
 }
 
 .cybear-graphic {
-  position: fixed;
+  position: fixed; /* Keeps the GIF fixed in place while scrolling */
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
+  z-index: -1; /* Places GIF behind content */
   overflow: hidden;
-  z-index: -1; /* Push GIF behind the content */
 }
 
 .fullscreen-gif {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Maintain aspect ratio while covering the viewport */
+  object-fit: cover; /* Maintains aspect ratio while filling the screen */
 }
 
 .information {
-  position: relative;
-  padding: 100vh 20px 20px; /* Space below GIF */
-  background-color: #003f63;
-  border-bottom: 2px solid black;
-  color: white; /* Better readability */
+  position: relative; /* Ensures normal document flow */
+  margin-top: 100vh; /* Pushes the content below the GIF */
+  padding: 20px; /* Adds padding inside the content */
+  background-color: #003f63; /* Adds a distinct background */
+  color: white; /* Ensures text readability */
+  border-top: 2px solid black; /* Optional: separates the GIF and content visually */
   text-align: center;
 }
