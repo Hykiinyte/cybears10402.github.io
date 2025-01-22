@@ -3,11 +3,11 @@ html {
 }
 
 nav {
-    position: fixed;
+    position: auto;
     top: 0;
-    width: auto;
+    width: 1600;
     background-color: #003f63;
-    padding: auto auto;
+    padding: 10px 20px;
     border-bottom: 2px solid black; /* Adds a bottom border */
     text-align: center;
     z-index: 1000; /
@@ -21,7 +21,7 @@ nav a {
 
 h1 {
   font-size: 50px;
-  font-family: "Playwrite GB J", cursive;
+  font-family: "Zen Dots", serif;
   text-align: center;
 
   margin: 0;
