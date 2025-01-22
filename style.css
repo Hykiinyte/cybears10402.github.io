@@ -20,7 +20,7 @@ nav a {
 }
 
 h1 {
-  font-size: 69px;
+  font-size: 50px;
   font-family: "Playwrite GB J", cursive;
   text-align: center;
 
@@ -34,12 +34,17 @@ h1 {
 p {
   font-size: 16px;
   line-height: 2;
-
-  font-family: "Space Grotesk", sans-serif;
+}
+p .oxanium-<uniquifier> {
+  font-family: "Oxanium", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
 }
 
+
 body {
-  width: auto;
+  width: 1600;
   margin: 0 auto;
   background-color: #ffffff;
   padding: 0 20px 20px 20px;
