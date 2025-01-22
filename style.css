@@ -78,3 +78,7 @@ body {
   border-top: 2px solid black; /* Optional: separates the GIF and content visually */
   text-align: center;
 }
+
+.footer {
+  background-color: #666666;
+}
